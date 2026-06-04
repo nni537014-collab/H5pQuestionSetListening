@@ -2,12 +2,12 @@
   "title": "Question Set",
   "description": "Put together a set of different questions that has to be solved. (Quiz)",
   "contentType": "question",
-  "majorVersion": 1,
-  "minorVersion": 21,
-  "patchVersion": 13,
+  "majorVersion": 0,
+  "minorVersion": 0,
+  "patchVersion": 0,
   "runnable": 1,
   "fullscreen": 0,
-  "machineName": "H5P.QuestionSet",
+  "machineName": "H5P.QuestionSetListening",
   "author": "Joubel",
   "coreApi": {
     "majorVersion": 1,
@@ -64,6 +64,11 @@
     },
     {
       "machineName": "H5PEditor.ShowWhen",
+      "majorVersion": 1,
+      "minorVersion": 0
+    },
+    {
+      "machineName": "H5P.TTS",
       "majorVersion": 1,
       "minorVersion": 0
     }

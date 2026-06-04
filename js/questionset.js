@@ -9,11 +9,11 @@ H5P = H5P || {};
  * @param {Array} options
  * @param {int} contentId
  * @param {Object} contentData
- * @returns {H5P.QuestionSet} Instance
+ * @returns {H5P.QuestionSetListening} Instance
  */
-H5P.QuestionSet = function (options, contentId, contentData) {
-  if (!(this instanceof H5P.QuestionSet)) {
-    return new H5P.QuestionSet(options, contentId, contentData);
+H5P.QuestionSetListening = function (options, contentId, contentData) {
+  if (!(this instanceof H5P.QuestionSetListening)) {
+    return new H5P.QuestionSetListening(options, contentId, contentData);
   }
   H5P.EventDispatcher.call(this);
   var $ = H5P.jQuery;
@@ -1112,5 +1112,5 @@ H5P.QuestionSet = function (options, contentId, contentData) {
   };
 };
 
-H5P.QuestionSet.prototype = Object.create(H5P.EventDispatcher.prototype);
-H5P.QuestionSet.prototype.constructor = H5P.QuestionSet;
+H5P.QuestionSetListening.prototype = Object.create(H5P.EventDispatcher.prototype);
+H5P.QuestionSetListening.prototype.constructor = H5P.QuestionSetListening;
